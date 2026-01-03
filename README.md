@@ -86,3 +86,7 @@ The easiest way to run the bot is using Docker Compose. This ensures all depende
 ```bash
     docker compose down
 ```
+
+## Example Message
+
+![Intents Configuration](doc/exemple.png)
