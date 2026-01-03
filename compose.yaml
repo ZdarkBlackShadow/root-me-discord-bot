@@ -1,0 +1,12 @@
+services:
+  server:
+    build:
+      context: .
+      target: final
+    env_file:
+      - .env
+    volumes:
+      - ./database.db:/app/database.db
+      - ./logs:/app/logs
+      - ./users.json:/app/users.json
+    restart: always

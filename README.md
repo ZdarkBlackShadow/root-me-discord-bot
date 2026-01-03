@@ -73,15 +73,16 @@ Edit `users.json` to include the members you want to track
     go run main.go
 ```
 
-## 🛠️ Build
+## 🐳 Docker Deployment
 
-### Local Build
+The easiest way to run the bot is using Docker Compose. This ensures all dependencies (like CGO for SQLite) are correctly configured.
 
-To create an executable:
+### Build and Start
 ```bash
-    go build -o root-me-bot main.go
+    docker compose up -d --build
 ```
 
-## Message Example
-
-![Example](doc/exemple.png)
+### Stop the Bot
+```bash
+    docker compose down
+```
