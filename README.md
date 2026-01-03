@@ -81,3 +81,7 @@ To create an executable:
 ```bash
     go build -o root-me-bot main.go
 ```
+
+## Message Example
+
+![Example](doc/exemple.png)
