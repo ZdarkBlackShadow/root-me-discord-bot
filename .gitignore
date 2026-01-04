@@ -1,5 +1,4 @@
 .env
-database.db
 *.log
 /logs
 /logs/*
